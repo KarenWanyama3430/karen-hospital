@@ -11,7 +11,7 @@ window.onscroll = () =>{
     navbar.classList.remove('active');
 }
 
-
+/* API link */
 if ('geolocation' in navigator){
     console.log ('geolocation available');
     navigator.geolocation.getCurrentPosition(position => {
